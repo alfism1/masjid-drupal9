@@ -1,0 +1,7 @@
+masjid.mainpage:
+  path: "/mainpage"
+  defaults:
+    _controller: '\Drupal\masjid\Controller\MasjidController::mainpage'
+    _title: "Mainpage of masjid"
+  requirements:
+    _permission: "access content"
